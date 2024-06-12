@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppMobile.Views.DevicesPage"
+             Title="DevicesPage">
+    <StackLayout>
+    <Label x:Name="NoDevicesLabel" Text="No devices available." IsVisible="False" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+    <ListView x:Name="DevicesListView">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                        <StackLayout Orientation="Vertical" >
+                        <Label Text="{Binding name}" FontAttributes="Bold" />
+                        <Label Text="{Binding mac}" />
+                        <Label Text="{Binding ip}" />
+                        <Label Text="{Binding os}" />
+                        <Label Text="{Binding createdat}" />
+                        <Label Text="{Binding updatedat}" />
+                    </StackLayout>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+</StackLayout>
+
+
+</ContentPage>
