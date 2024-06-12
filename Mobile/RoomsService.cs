@@ -13,10 +13,10 @@ namespace AppMobile
             _httpClient.BaseAddress = new Uri("http://10.0.2.2:5062/api/Rooms/");
         }
 
-        public async Task<List<Rooms>> GetRoomsByParcAsync(int parcId)
+        public async Task<List<rooms>> GetRoomsByParcAsync(int parcId)
         {
             var response = await _httpClient.GetStringAsync($"byParc/{parcId}");
-            return JsonConvert.DeserializeObject<List<Rooms>>(response);
+            return JsonConvert.DeserializeObject<List<rooms>>(response);
         }
     }
 
