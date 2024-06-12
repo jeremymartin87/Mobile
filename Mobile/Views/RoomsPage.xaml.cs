@@ -1,5 +1,5 @@
-namespace AppMobile.Views;
-using AppMobile.Models;
+namespace Mobile.Views;
+using Mobile.Models;
 
 public partial class RoomsPage : ContentPage
 {

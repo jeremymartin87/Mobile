@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
-using AppMobile.Models;
+using Mobile.Models;
 
-namespace AppMobile
+namespace Mobile
 {
     public class DevicesService
     {

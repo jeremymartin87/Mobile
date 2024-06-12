@@ -1,4 +1,4 @@
-﻿namespace AppMobile.Models
+﻿namespace Mobile.Models
 {
     public class parcs
     {

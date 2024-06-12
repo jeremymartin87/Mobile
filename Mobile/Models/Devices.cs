@@ -1,4 +1,4 @@
-﻿namespace AppMobile.Models
+﻿namespace Mobile.Models
 {
     public class devices
     {
@@ -9,7 +9,7 @@
         public string os { get; set; }
         public bool isenabled { get; set; }
         public DateTime createdat { get; set; }
-        public DateTime updatedat { get; set; }
+        public DateTime? updatedat { get; set; }
         public int roomid { get; set; }
     }
 }

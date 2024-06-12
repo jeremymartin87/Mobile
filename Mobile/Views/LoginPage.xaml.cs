@@ -1,4 +1,4 @@
-namespace AppMobile.Views;
+namespace Mobile.Views;
 
 public partial class LoginPage : ContentPage
 {

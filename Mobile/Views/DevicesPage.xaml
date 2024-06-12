@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AppMobile.Views.DevicesPage"
-             Title="DevicesPage">
+             x:Class="Mobile.Views.DevicesPage"
+             Title="Devices">
     <StackLayout>
     <Label x:Name="NoDevicesLabel" Text="No devices available." IsVisible="False" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
     <ListView x:Name="DevicesListView">
