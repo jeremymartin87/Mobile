@@ -1,4 +1,4 @@
-﻿namespace Mobile
+﻿namespace AppMobile
 {
     public partial class MainPage : ContentPage
     {
